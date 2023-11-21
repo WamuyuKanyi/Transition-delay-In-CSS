@@ -1,0 +1,33 @@
+/* CSS transitions allows you to change property values smoothly, over a given duration. */
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+div:hover{
+  background: coral;
+}
+
+
+.one {
+  background: #ff0000;
+  
+}
+.two {
+  background: blue;
+ 
+}
+
+.three {
+  background: green;
+transition-property:background,border-radius ;
+transition-duration: 4s;
+/* The transition-delay property specifies a delay (in seconds) for the transition effect. */
+transition-delay: 3s ;
+}
+
+.three:hover {
+  border-radius: 50%;
+}
